@@ -18,7 +18,7 @@ export default function () {
             <a href="https://github.com/adhu23520"><img className="ContactImage" src={githubImage} /></a>
             <a href="https://www.linkedin.com/in/adhavanalexander/"><img className="ContactImage" src={linkedinImage} /></a>
             <a href="https://app.joinhandshake.com/profiles/cs64xq"><img className="ContactImage" src={handshakeImage} /></a>
-            <a href=""><img className="ContactImage" src={resumeImage} /></a>
+            {/* <a href=""><img className="ContactImage" src={resumeImage} /></a> */}
             
 
         </div>

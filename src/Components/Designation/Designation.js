@@ -30,9 +30,9 @@ export default function Designation() {
           <h1>Clean Code. Complex Problems Solved.</h1>
           </p>
         <p>
-          <h1 className="summary">
-          👋Hello everyone! I’m a Master’s graduate in Computer Science from Northeastern University and I am a highly motivated and dependable professional with a diverse background in Software Development. Despite limited work experience, I bring a strong work ethic, adaptability, and a commitment to excellence. With a proven track record of reliability and a dedication to continuous learning, I am now seeking a position that offers growth opportunities and the potential for career advancement within a forward-thinking organization. I am enthusiastic about contributing my skills to ensure the highest standards in the Software Development domain.
-          </h1>
+          <h3 className="summary">
+          👋Hello everyone! I’m a Master’s graduate in Computer Science from Northeastern University and I am a highly motivated and dependable professional with a diverse background in Software Development. I bring a strong work ethic, adaptability, and a commitment to excellence. With a proven track record of reliability and a dedication to continuous learning, I am now seeking a position that offers growth opportunities and the potential for career advancement within a forward-thinking organization. I am enthusiastic about contributing my skills to ensure the highest standards in the Software Development domain.
+          </h3>
         </p>
         </div>
       </div>

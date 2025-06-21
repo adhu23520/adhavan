@@ -109,9 +109,9 @@ export default function Projects() {
               className={`ProjectDesc ${activeTab === tab.id ? 'active-tab' : ''}`}
             >
               <ul style={{ lineHeight: '1.6' }}>
-                <h3>{tab.content.map((item, index) => (
+                <h5>{tab.content.map((item, index) => (
                   <li key={index}>{item}</li>
-                ))}</h3>
+                ))}</h5>
               </ul>
             </div>
           ))}
