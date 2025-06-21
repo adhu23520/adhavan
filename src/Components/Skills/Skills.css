@@ -1,0 +1,23 @@
+.skills{
+    font-family: 'NType82-Headline';
+    margin-left: 100px;
+    color: white;
+}
+
+.skillImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 20px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.skillImage:hover{
+    transform: scale(1.2);
+}
+
+.subHeading{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

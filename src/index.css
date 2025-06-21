@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #DFDFD6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'NDot';  /* Name it whatever you want */
+  src: local('NType82'),
+       url('./assets/fonts/Ndot-55.otf') format('opentype');
+  font-weight: normal;  /* Adjust if you have different weights */
+  font-display: swap;   /* Optional: Ensures text remains visible during load */
+}
+
+@font-face {
+  font-family: 'NType82-Headline';  /* Name it whatever you want */
+  src: local('NType82'),
+       url('./assets/fonts/HelveticaNeueLight.otf') format('opentype');
+  font-weight: normal;  /* Adjust if you have different weights */
+  font-display: swap;   /* Optional: Ensures text remains visible during load */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

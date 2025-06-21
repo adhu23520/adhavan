@@ -1,0 +1,30 @@
+.Contact{
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.ContactImage{
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.ContactImage:hover{
+    transform: scale(1.1);
+}
+
+.contect{
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.contect:hover{
+    transform: scale(1.01);
+    color: #FC6936;
+}

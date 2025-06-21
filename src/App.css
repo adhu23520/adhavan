@@ -1,0 +1,62 @@
+.App {
+  background-color: #0C0E2D;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.NavBut{
+  color: white;
+  margin-right: 50px;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.NavBut:hover {
+  color: rgb(155, 133, 255);
+  transform: scale(1.0);
+}
+
+/* .Navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: fixed;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 60%; 
+  background-color: rgba(56, 60, 79, 0.5);
+  backdrop-filter: blur(10px);
+
+  padding: 10px 0; 
+  z-index: 1000; 
+  margin-top: 50px;
+  border-radius: 50px; 
+} */
+
+.navIcon {
+  display: flex;
+  margin: 20px;
+  border: 2px solid #FC6936;
+  background-color: #FC6936;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+
+.App-header {
+  background-color: #151E7E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

@@ -1,0 +1,71 @@
+.NamesAndDescription{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+
+}
+
+.projectsTitle{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ProjectNames{
+    display: flex;
+    flex-grow: 1;
+    margin-right: 20px;
+    min-width: 550px;
+}
+
+
+.ProjectDescriptions{
+    height: 500px;
+    /* background-color: #4A4F68; */
+}
+
+#h2{
+    margin-top: 50px;
+}
+
+.title:hover{
+    color: #9097E2;
+}
+
+.ProjectDesc {
+    display: none;
+  }
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    background-color: #4A4F68;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+  
+  .ProjectDesc.active-tab {
+    display: block;
+    font-size: x-large;
+    margin-right: 120px;
+    padding: 10px;
+    background-color: #4A4F68;
+    border-radius: 20px;
+    height: 450px;
+  }
+  
+  .title {
+    cursor: pointer;
+  }
+  
+  .title.active-link {
+    color: #9097E2;
+    /* Your active link styles */
+  }

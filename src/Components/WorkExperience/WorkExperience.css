@@ -1,0 +1,22 @@
+.Experience{
+    font-family: Ntype82-Headline;
+    margin-left: 100px;
+    color: white;
+}
+
+.workExperience{
+    display: flex;
+    background-color: #4A4F68;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.workImage{
+    height: 300px;
+    border-radius: 20px;    
+}
+
+.workDetails{
+    margin-left: 30px;
+}

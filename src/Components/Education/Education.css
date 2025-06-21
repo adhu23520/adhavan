@@ -1,0 +1,27 @@
+.Education{
+    font-family: Ntype82-Headline;
+    margin-left: 100px;
+    /* background-color: #181524; */
+    width: 100%;
+    color: white;
+}
+
+.eduImage{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.education{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
+    background-color: #4A4F68;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.eduDetails{
+    margin-left: 30px;
+    text-align: justify;
+    
+}
