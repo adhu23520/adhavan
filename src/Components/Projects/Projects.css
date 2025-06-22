@@ -1,6 +1,7 @@
 .NamesAndDescription{
     display: flex;
     flex-direction: row;
+    min-height: 500px;
     align-items: flex-start;
     color: white;
 
@@ -17,12 +18,18 @@
     flex-grow: 1;
     margin-right: 20px;
     min-width: 550px;
+    width: 30%; /* Adjust based on your needs */
+    padding-right: 20px;
 }
 
 
 .ProjectDescriptions{
-    height: 500px;
+    /* position: absolute; */
     /* background-color: #4A4F68; */
+    width: 70%;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
 }
 
 #h2{
@@ -31,10 +38,21 @@
 
 .title:hover{
     color: #9097E2;
+    transform: translateX(5px);
 }
 
 .ProjectDesc {
-    display: none;
+    
+    position: absolute;
+    width: 90%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 
+    opacity 0.4s ease-out,
+    transform 0.4s ease-out;
+  pointer-events: none;
   }
 
 .projectCard{
@@ -59,13 +77,20 @@
     background-color: #4A4F68;
     border-radius: 20px;
     height: 450px;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    transition-delay: 0.1s;
   }
   
   .title {
+    cursor: pointer;
+    transition: all 0.4s ease-out;
     cursor: pointer;
   }
   
   .title.active-link {
     color: #9097E2;
-    /* Your active link styles */
+    padding-left: 8px;
+
   }
